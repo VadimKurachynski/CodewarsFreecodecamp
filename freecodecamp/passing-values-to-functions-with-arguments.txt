@@ -1,0 +1,9 @@
+function functionWithArgs(param1, param2) {
+  let sum = param1 + param2;
+  console.log( param1, param2 );
+  console.log( sum );
+  return sum;
+  
+}
+
+functionWithArgs(12, 12);
