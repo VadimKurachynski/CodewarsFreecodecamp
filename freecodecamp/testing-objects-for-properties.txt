@@ -1,0 +1,13 @@
+function checkObj(obj, checkProp) {
+ if(obj.hasOwnProperty(checkProp))return obj[checkProp];
+ return "Not Found";
+ 
+}
+const obj={
+  gift:"pony",
+  pet: "kitten",
+  bed: "sleigh",
+}
+
+console.log(checkObj(obj,"gift"));
+//({gift: "pony", pet: "kitten", bed: "sleigh"}, "gift")должны возвращать строку pony.
