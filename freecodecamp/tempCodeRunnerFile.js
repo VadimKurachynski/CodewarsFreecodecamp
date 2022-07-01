@@ -1,0 +1,1 @@
+ console.log(n);//console.log (prop[value[0]]);

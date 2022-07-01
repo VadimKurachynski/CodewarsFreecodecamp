@@ -26,28 +26,23 @@ function updateRecords(records, id, prop, value) {
 
   if (prop === "artist" && value != "") { records[id][prop] = value; return records; }
   if (prop === "albumTitle") { records[id][prop] = value; return records; }
-
-
   if (prop === "tracks" && value != "") {
 
-    if ([records].hasOwnProperty("tracks") === false) { records[id][prop]="43535"; }
+    if (records[id].hasOwnProperty("tracks") === false) { //5439
+      console.log("ytne");
+      records[id][prop] = [];
+    }
 
+    let n = records[id][prop].length;
+    console.log(n);//console.log (prop[value[0]]);
 
-    let n = [prop].length;
-    console.log(n);
-    if (n == 0) { records[id][prop] = [value]; return records; }
-    if (n != 0) { records[id][prop][n + 1] = `${value}`; return records; }
+    if (n == 0) { records[id][prop] = [`${value}`]; return records; }//наст1245
+    if (n != 0) { records[id][prop][n] = `${value}`; return records; }
+
   }
 
   if (prop === "artist" && value === "") { delete records[id][prop]; return records; }
   if (prop === "tracks" && value === "") { delete records[id][prop]; return records; }
-
-
-
-
-
-  // console.log(recordCollection);
-  return records;
 
 }
 
