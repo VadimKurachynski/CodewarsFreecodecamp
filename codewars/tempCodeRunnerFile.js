@@ -1,1 +1,1 @@
-"Ma"
+console.log(wer.firstName);
