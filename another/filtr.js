@@ -25,30 +25,21 @@ const contacts = [
   },
 ];
 
+  function lookUpProfile(name, prop) {
 
-
-function lookUpProfile(name, prop) {
-
-  let has = (contacts.some(it => it.firstName === name));
-  if (has === false){return("No such contact")}
-  
-  
-  let find1 = contacts.filter(f1 => f1.firstName == [name]);
-  if (("lastName" in find1) === false){
-  console.log(find1);
-    return("No such property");
-    }
-  
+    let has = (contacts.some(it => it.firstName === name));
+    if (has === false){return("No such contact")}
     
-  
-  
-  let find = contacts.filter(f => f.firstName == [name]).map(f=>f[prop]);
-  if (prop==="lastName"){return (find.join(""));}
-  if (prop==="likes"){return (find.flat());}
-  
-  
+    //проверка на свойство
+    let cont = contacts.find(item => item.firstName == name).hasOwnProperty(prop);
+    if(cont ===false){return "No such property"};
+    
+    let find = contacts.filter(f => f.firstName == [name]).map(f=>f[prop]);
+    if (prop==="lastName"){return (find.join(""));}
+    if (prop==="likes"){return (find.flat());}
+    
+    return(cont);
   }
   
-  
-  
+ 
   console.log( lookUpProfile("Kristian", "lastName"));
