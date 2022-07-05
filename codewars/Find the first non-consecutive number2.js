@@ -9,8 +9,3 @@ function firstNonConsecutive(arr) {
   }
 
 console.log(firstNonConsecutive([1, 2, 3, 4, 5, 8, 9]));
-// let b = [1, 2, 2, 1, 1, 1];
-// let n = 1;
-// let x1 = b.indexOf(n);
-// let x2 = b.lastIndexOf(n);
-// console.log(x1, "  ", x2);
