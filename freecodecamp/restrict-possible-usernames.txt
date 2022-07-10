@@ -1,0 +1,6 @@
+let username = "JackOfAllTrades";
+let userCheck = /^([a-zA-Z])+([a-zA-Z9])+\d*$/; // Change this line
+let result = userCheck.test(username);
+console.log(result)
+
+//let userCheck = /[^[0-9][A-Za-z]]/; // Change this line
