@@ -1,0 +1,5 @@
+let hello = "   Hello, World!  ";
+let wsRegex = /\w+\W\s\w+\W/g; // Change this line
+let result = hello.match(wsRegex).join(); // Change this line
+
+console.log(result);
