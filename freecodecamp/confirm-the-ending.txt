@@ -1,0 +1,9 @@
+function confirmEnding(str, target) {
+let am=target.length;
+let r=str.slice(-am);
+return (target===r)? true:false
+}
+
+
+
+console.log(confirmEnding("Bastian", "n"))
