@@ -1,0 +1,14 @@
+function sumFibs(num) {
+  let sum=2;
+  let a = 1;
+  let b = 1;
+  for (let i = 3; i <= num; i++) {
+    let c = a + b;
+    a = b;
+    b = c;
+    if(c%2!=0 && c<=num){sum+=c;}
+  }
+ return sum;
+}
+console.log(sumFibs(10));
+
