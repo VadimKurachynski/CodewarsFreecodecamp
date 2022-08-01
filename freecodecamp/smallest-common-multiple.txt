@@ -1,0 +1,15 @@
+let arr1=[];
+let max=1;
+function smallestCommons(arr) {
+let arr1=arr.sort((a,b)=>a-b)
+for (let n = arr1[0]; n <= arr1[1]; n++) {max *= n; }
+  here:
+  for(let i=arr[0];i<=max;i++){
+   for(let j=arr1[0];j<=arr1[1];j++){
+     if(i%j!=0){continue here}     
+   } 
+  return i;
+  } 
+}
+
+smallestCommons([5,1]);
