@@ -1,0 +1,15 @@
+function sumPrimes(num) {
+  let arr=[];
+  let sum=0;
+  here:
+  for(let i=2;i<=num;i++){
+   for(let j=2;j<i;j++){
+     if(i%j==0){continue here}     
+   }
+   sum +=i;
+   arr.push(i);
+  }
+  console.log(arr);
+  return sum;
+}
+sumPrimes(10);
