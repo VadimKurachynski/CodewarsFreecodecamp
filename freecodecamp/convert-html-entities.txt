@@ -1,0 +1,16 @@
+function convertHTML(str) {
+  let f=str.split("");
+  for (let i=0;i<f.length;i++)
+  switch(f[i]){
+    case "&":f[i]="&amp;";break; 
+    case "<":f[i]="&lt;";break;
+    case ">":f[i]="&gt;";break;
+    case '"':f[i]="&quot;";break;
+    case "'":f[i]="&apos;";break;
+  }
+  console.log()
+  return f.join("");
+  
+}
+
+console.log(convertHTML("Dolce & Gabbana"));
