@@ -1,1 +1,1 @@
-Get the tabs before the tab
+ // const [x1, x2] = arguments;
