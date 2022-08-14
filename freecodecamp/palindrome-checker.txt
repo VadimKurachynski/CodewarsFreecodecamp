@@ -1,0 +1,10 @@
+function palindrome(str) {
+
+let st1=str.replace(/\W/g,"").replace(/_/g,"").toLowerCase().split("")
+let st2=str.replace(/\W/g,"").replace(/_/g,"").toLowerCase().split("").reverse()
+if(st1.join("")==st2.join("")){
+return true
+}else
+return false
+}
+console.log(palindrome("A man, :a plan, | // a _canal. -- Panama"));
