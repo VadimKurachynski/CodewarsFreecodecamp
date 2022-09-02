@@ -1,0 +1,38 @@
+body{
+    margin:0px;
+    padding: 0px;
+   
+}
+
+
+
+.flex-box{
+   display: flex;
+   flex-direction: column;
+  height: 1000px;
+ 
+}
+
+.first {
+   
+  border: 2px solid;
+ 
+   
+}
+
+
+
+.second {
+    background-color: rgb(41, 44, 206);
+   
+   
+}
+
+
+img{
+   width: 100%;
+   height: auto;
+   
+  
+}
+
