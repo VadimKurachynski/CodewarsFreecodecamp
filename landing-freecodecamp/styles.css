@@ -145,4 +145,20 @@ iframe {
 
 .footer{
     display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+  
+}
+.Private{
+    display: flex;
+    flex-direction: row; 
+   fl
+    border: 2px solid red;
+    
+    
+}
+
+.null{
+    /* width: 50%; */
 }
