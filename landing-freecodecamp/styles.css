@@ -176,5 +176,6 @@ iframe {
 
 .boilers-item{
     display: flex;
-    
+   flex-direction: column;
+   
 }
