@@ -140,3 +140,9 @@ iframe {
   
 
 }
+
+
+
+.footer{
+    display: flex;
+}
