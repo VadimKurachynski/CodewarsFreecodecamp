@@ -173,9 +173,15 @@ iframe {
   
 }
 
-
+.flex-boilers{
+    display: flex;
+    flex-direction: row;
+   margin: 0 0 50px;
+}
 .boilers-item{
+
+    min-width: 350px;
     display: flex;
    flex-direction: column;
-   
+   border: 2px red solid;
 }
