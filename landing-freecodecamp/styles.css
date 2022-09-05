@@ -144,7 +144,7 @@ iframe {
     font-family: 'Noto Sans', sans-serif;
     margin: 0 auto 0 auto;
     width: var(--width-content);
-    height: 120px;
+    height: 110px;
     background-color: aquamarine;
     min-width: 500px;
    
@@ -166,11 +166,15 @@ iframe {
 }
 
 .copyright{
-    margin: 30px 10px 0 0;
+    margin: 20px 10px 0 0;
     font-size: 18px;
     display: flex;
-    border: 2px solid red;
-    
     align-self:flex-end;
   
+}
+
+
+.boilers-item{
+    display: flex;
+    
 }
