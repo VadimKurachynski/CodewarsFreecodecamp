@@ -185,7 +185,7 @@ iframe {
     min-width: 350px;
     display: flex;
     flex-direction: column;
-    border: 4px rgb(33, 4, 102) solid;
+    border: 2px rgb(33, 4, 102) solid;
     height: 450px;
    border-radius: 10px;
   
@@ -199,10 +199,11 @@ iframe {
     height: 80px;
     text-align: center;
     border-radius: 5px;
+   
 }
 
 .name-boiler{
-
+ font-weight: 800;
 }
 
 .boiler-center{
@@ -215,7 +216,7 @@ iframe {
     text-align: center;
 }
 .boiler-down{
-  
+    background-color: gray;
     height: 80px;
   text-align: center;
 }
