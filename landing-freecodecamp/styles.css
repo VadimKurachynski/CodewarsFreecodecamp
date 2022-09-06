@@ -183,14 +183,19 @@ iframe {
     min-width: 350px;
     display: flex;
     flex-direction: column;
-    border: 2px red solid;
+    border: 4px rgb(33, 4, 102) solid;
+    height: 450px;
+   border-radius: 10px;
+  
+
 }
 
 .boiler-top{
     border: 2px green solid;
     background-color: gray;
     text-align: center;
-   
+    height: 80px;
+
   
 }
 
