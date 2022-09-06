@@ -215,14 +215,14 @@ text-align: center;
 }
 
 .btn{
-    height: 60px;
+    height: 45px;
     width: 300px;
     font-size: 25px;
     font-family: 'Noto Sans', sans-serif;
     border-radius: 10px;
     text-align: center;
     background-color: aqua;
-    margin: 10px 0 0 0;
+    margin: 17px 0 0 0;
    
    
 }
