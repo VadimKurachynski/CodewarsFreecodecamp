@@ -205,4 +205,5 @@ iframe {
 }
 .boiler-down{
     border: 2px rgb(9, 0, 128) solid;
+    height: 80px;
 }
