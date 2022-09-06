@@ -201,6 +201,7 @@ iframe {
 
 .boiler-center{
     border: 2px rgb(9, 0, 128) solid;
+    flex:1 1 auto;
 }
 .boiler-down{
     border: 2px rgb(9, 0, 128) solid;
