@@ -207,3 +207,9 @@ iframe {
     border: 2px rgb(9, 0, 128) solid;
     height: 80px;
 }
+
+.btn{
+    height: 100%;
+    width: 100%;
+    
+}
