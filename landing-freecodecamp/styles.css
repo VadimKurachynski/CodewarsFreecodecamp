@@ -174,6 +174,8 @@ iframe {
 }
 
 .flex-boilers {
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
     display: flex;
     flex-direction: row;
     margin: 0 0 50px;
@@ -191,12 +193,16 @@ iframe {
 }
 
 .boiler-top{
+   
     border: 2px green solid;
     background-color: gray;
-    text-align: center;
     height: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
 
-  
+.name-boiler{
+
 }
 
 .boiler-center{
@@ -211,5 +217,7 @@ iframe {
 .btn{
     height: 100%;
     width: 100%;
-    
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 5px;
 }
