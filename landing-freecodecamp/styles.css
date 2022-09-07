@@ -239,8 +239,9 @@ h3 {
     font-family: 'Noto Sans', sans-serif;
     border-radius: 10px;
     text-align: center;
-    background-color: aqua;
+    background-color: rgba(138, 72, 212, 0.753);
     margin: 17px 0 0 0;
+    color: aliceblue;
 
 
 }
