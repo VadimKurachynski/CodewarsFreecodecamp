@@ -71,8 +71,7 @@ body {
     flex: 1 1 auto;
     background-color: blueviolet;
     min-width: 500px;
-    overflow: hidden;
-    border-radius: 10px;
+   
 }
 
 .footer {}
@@ -150,7 +149,7 @@ h3 {
     margin: 0 auto 0 auto;
     width: var(--width-content);
     height: 110px;
-    background-color: aquamarine;
+    background-color: rgb(103, 24, 177);
     min-width: 500px;
 
 }
@@ -250,12 +249,21 @@ h3 {
 @media (max-width: 900px) {
     .header {
         flex-direction: column;
-
+        border: 3px white solid;
+      
+        
+       
+      
+        
+       
+      
+       
+       
     }
 
     #nav-bar {
         flex-direction: column;
-        border: 3px white solid;
+        
     }
 
     .hero {
