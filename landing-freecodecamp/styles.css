@@ -241,10 +241,12 @@ h3 {
     background-color: rgba(138, 72, 212, 0.753);
     margin: 17px 0 0 0;
     color: aliceblue;
-
-
 }
 
+.btn:hover {
+    background-color: rgb(221, 65, 59);
+    transition: background-color 1s;
+  }
 
 @media (max-width: 900px) {
     .header {
@@ -287,3 +289,6 @@ h3 {
 
 
 }
+
+
+  
