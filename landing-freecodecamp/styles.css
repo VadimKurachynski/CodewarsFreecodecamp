@@ -240,3 +240,33 @@ h3 {
 
 
 }
+
+
+@media (max-width: 900px) {
+    .header{
+        flex-direction:column;
+       
+    }
+    #nav-bar {
+        flex-direction:column;
+    }
+.hero{
+    margin-top: 200px;
+}
+#email{
+    width: 290px;
+}
+    }
+  
+
+    @media (max-width: 530px) {
+       .wrapper{
+           min-width: 530px;
+       }
+       .header{
+        min-width: 530px;
+    }
+
+    
+        }
+      
