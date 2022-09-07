@@ -74,7 +74,7 @@ body {
    
 }
 
-.footer {}
+
 
 .hero {
 
@@ -251,23 +251,23 @@ h3 {
         flex-direction: column;
         border: 3px white solid;
       
-        
-       
-      
-        
-       
-      
-       
-       
+
     }
 
+    .content{
+        width: 100%;
+    }
+
+    .footer{
+        width: 100%;
+    }
     #nav-bar {
         flex-direction: column;
         
     }
 
     .hero {
-        margin-top: 200px;
+       margin-top: 180px;
     }
 
     #email {
